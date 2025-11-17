@@ -94,3 +94,4 @@
 /Users/isacj/edu/DoW/ReviewApp/obj/Debug/net9.0/ReviewApp.pdb
 /Users/isacj/edu/DoW/ReviewApp/obj/Debug/net9.0/ReviewApp.genruntimeconfig.cache
 /Users/isacj/edu/DoW/ReviewApp/obj/Debug/net9.0/ref/ReviewApp.dll
+/Users/isacj/edu/DoW/ReviewApp/obj/Debug/net9.0/ReviewApp.sourcelink.json
