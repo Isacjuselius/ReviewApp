@@ -1,11 +1,11 @@
 public class TagModel 
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Category { get; set; }
 
-    public TagModel (int id, string name) 
+    public TagModel (int id, string category) 
     {
-        int Id = id;
-        string Name = name;
+        Id = id;
+        Category = category;
     }  
 }

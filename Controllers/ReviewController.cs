@@ -17,8 +17,27 @@ namespace ReviewApp.Controllers
 
             };
             
-            return View("~/Views/Review/Reviews.cshtml", reviewList);
+            return View(reviewList);
     
         } 
+
+        public IActionResult CreateReview()
+        {
+            return View();
+        }
+
+        public IActionResult CreateReviewSubmit(ReviewModel review)
+        {
+
+            if (ModelState.IsValid)
+            {
+                ViewBag.Message = "Review created!";
+                return View();
+            }
+
+
+            return View("CreateReview", review);
+            
+        }
     }
 }    
