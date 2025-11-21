@@ -32,7 +32,10 @@ namespace ReviewApp.Controllers
             if (ModelState.IsValid)
             {
                 ViewBag.Message = "Review created!";
-                return View();
+                return View("CreateReview", review);
+            }else if (!ModelState.IsValid)
+            {
+                ViewBag.Error = "Information is missing.";
             }
 
 
