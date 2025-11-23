@@ -1,18 +1,27 @@
-public class ReviewModel 
-{
-    public int Id { get; set; }
-    public string Description { get; set; }
-    public string Title { get; set; }
+using System.ComponentModel.DataAnnotations;
 
-    public ReviewModel() 
-    { 
+namespace ReviewApp.Models
+{       
 
-    }
-
-    public ReviewModel (int id, string description, string title) 
+    public class ReviewModel 
     {
-        Id = id;
-        Description = description;
-        Title = title;
-    }  
+        [Required]
+        public int Id { get; set; }
+        [Required]
+        public string Description { get; set; }
+        [Required]
+        public string Title { get; set; }
+
+        public ReviewModel() 
+        { 
+
+        }
+
+        public ReviewModel (int id, string description, string title) 
+        {
+            Id = id;
+            Description = description;
+            Title = title;
+        }  
+    }
 }
