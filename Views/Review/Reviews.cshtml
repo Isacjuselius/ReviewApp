@@ -3,12 +3,15 @@
 
 @{
     ViewData["Title"] = "Reviews";
+    int totalReviews = (int)ViewData["TotalReviews"];
 }
 <h1>Reviews</h1>
 
 <p>
     <a asp-action="CreateReview">Create New Review</a>
 </p>
+
+<p>There are currently @ViewData["TotalReviews"] reviews </p>
 <table class="table">
     <thead>
         <tr>

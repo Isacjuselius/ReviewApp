@@ -1,15 +1,19 @@
 public class UserModel 
 {
-    public int Id { get; set; }
-    public string Password { get; set; }
-    public string Email { get; set; }
-    public int Age { get; set; }  
 
-    public UserModel (int id, string password, string email, int age) 
+    public string Password { get; set; }
+    public string Email { get; set; } 
+    public string Name { get; set; } 
+
+    public UserModel (string email, string password, string name) 
     {
-        Id = id;
         Password = password;
         Email = email;
-        Age = age;
+        Name = name;
+    }
+
+    public UserModel() 
+    {
+
     }  
 }

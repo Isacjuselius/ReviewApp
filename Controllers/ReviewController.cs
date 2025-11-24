@@ -18,8 +18,10 @@ namespace ReviewApp.Controllers
 
         public IActionResult Reviews()
         {
+            ViewData["TotalReviews"] = reviewList.Count();
             return View(reviewList);
-        } 
+        }
+
 
         [HttpGet]
         public IActionResult CreateReview()

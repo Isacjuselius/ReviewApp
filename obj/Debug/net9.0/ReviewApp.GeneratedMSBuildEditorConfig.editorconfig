@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/isacj/edu/DoW/ReviewApp/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/isacj/edu/DoW/ReviewApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,10 +54,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/isacj/edu/DoW/ReviewApp/Views/Tag/Tags.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFnL1RhZ3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/isacj/edu/DoW/ReviewApp/Views/User/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Vc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/isacj/edu/DoW/ReviewApp/Views/_ViewImports.cshtml]
