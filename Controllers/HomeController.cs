@@ -9,7 +9,7 @@ public class HomeController : Controller
     private static IList<UserModel> userList = new List<UserModel>()
     {
         new UserModel ("isal0037@student.umu.se", "isal0037", "Isac Juselius"),
-        new UserModel ("Omar.Lundgren@gmail.com", "omar", "Omar Lundgren")
+        new UserModel ("Johan.Svensson@gmail.com", "Johan", "Johan Svensson"),
     };
 
     [HttpGet]

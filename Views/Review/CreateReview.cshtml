@@ -5,12 +5,7 @@
 }
 <h1>Create a new review</h1>
 
-@if (ViewBag.Message != null)
-{
-    <div class="alert alert-success">
-        @ViewBag.Message
-    </div>
-}else if (ViewBag.Error != null)
+@if (ViewBag.Error != null)
 {
     <div class="alert alert-danger">
         @ViewBag.Error
